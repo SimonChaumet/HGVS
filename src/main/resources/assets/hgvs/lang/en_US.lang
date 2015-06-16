@@ -1,0 +1,73 @@
+commands.forge.tps.summary=%s \: Mean tick time\: %d ms. Mean TPS\: %d
+
+
+
+item.record.pos.desc=Compass pointing...
+
+
+
+HGVS.general.true=§2True§r
+HGVS.general.false=§4False§r
+
+
+HGVS.compass.showPosF=§6Compass is pointing to (%d, %d), %fm away
+HGVS.compass.showPosP=§6Compass is pointing to %1$s (%fm away)
+HGVS.compass.noPlayerFound=§4Only god hears you...
+HGVS.compass.teleport=Do you want to teleport yourself to %s %s ? (Nearest feast)
+
+
+HGVS.command.needOpLevel=You need to be an operator to kick a player from the game
+
+
+HGVS.command.friend.usage=/friend <player> [text] or /friend accept <player>
+HGVS.command.friend.success=Friend request sent
+HGVS.command.friend.request=You have received a friend request from §o%1$s§r, do §o/friend accept %1$s§r to accept
+HGVS.command.friend.NaFriend=The player §o%1$s§r didn't send you a friend request, do §o/friend %1$s§r to send him/her a friend request
+HGVS.command.friend.newTeam=The player §o%s§r has join the §o%s§r team
+HGVS.command.friend.sameTeam=The player §o%s§r is already in the same team as you
+HGVS.command.friend.NET=There is no such free team for you and §o%s§r
+HGVS.command.friend.self=Cannot send a friend request to yourself
+
+
+HGVS.command.message.disabled=§nThe command §o/tell§r§c§n has been disabled for gameplay reasons ;)
+
+
+HGVS.command.game.usage=/game <start|pause|shift|update|stats|list|reload>...
+HGVS.command.game.pause.success=The game is now paused
+HGVS.command.game.shift.success=The game has been shifted to episode %1$s at %2$02d:%3$02d
+HGVS.command.game.spreading.success=Spreading players...
+HGVS.command.game.feasts=New feast at %s
+
+HGVS.command.game.stats.usage=/game stats <show|reset> <player>
+HGVS.command.game.stats.playerNF=Player §o%1$s§r not found
+HGVS.command.game.stats.remainingDeaths=Number of remaining deaths : %s
+HGVS.command.game.stats.healthRegenerate=Health regenerate : %s
+HGVS.command.game.stats.death=(%s)The player §o%s§r has been killed by : §o%s§r
+HGVS.command.game.stats.damage=Damage cause : §o%1$s§r, total : %2$s
+
+HGVS.command.game.list.usage=/game list <add|remove|show> <player>
+HGVS.command.game.list.add.success=§o%s§r was added to the game list, he can now join the game without being kicked
+HGVS.command.game.list.add.failure=§o%s§r couldn't be added to the game list
+HGVS.command.game.list.remove.success=§o%s§r was removed from the game list, he can't join the game without being kicked
+HGVS.command.game.list.remove.failure=§o%s§r couldn't be removed from the game list
+
+HGVS.command.game.border.usage=/game border reload or /game border set <size> [episode]
+HGVS.command.game.border.set.moreEpisodes=The number of episodes is too low (%s), it must be higher than %s
+
+HGVS.command.game.heal.success=Successfully regenerated health of the player %s
+
+HGVS.command.game.config.usage=/game config get <key> or / game config set <key> <value>
+
+HGVS.game.preload.success=Successfully preloaded chunk(s) (%s ms)
+
+
+HGVS.command.abandon.usage=/abandon or /abandon <player>
+HGVS.command.abandon.toConfirm=You already have sent an abandon request to this player, please confirm it by typing §o/abandon confirm %s§r
+HGVS.command.abandon.confirm=For security reasons, you have to confirm this command by typing §o/abandon confirm %s§r
+HGVS.command.abandon.success=You successfully kicked out §o%s§r
+HGVS.command.abandon.NRF=Your precedent request couldn't be found, type §o/abandon %s§r to send another request
+HGVS.command.abandon.hasGaveUp=§o%s§r has gave up, his stuff is at : %s
+
+
+HGVS.command.surface.usage=/surface
+HGVS.command.surface.fail=Couldn't teleport you to the surface, try in an other place

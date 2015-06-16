@@ -1,0 +1,73 @@
+commands.forge.tps.summary=%s \: Mean tick time\: %d ms. Mean TPS\: %d
+
+
+
+HGVS.general.true=§2Vrai§r
+HGVS.general.false=§4Faux§r
+
+
+HGVS.compass.showPosF=§6La boussole pointe vers (%d, %d), %fm loin
+HGVS.compass.showPosP=§6La boussole pointe vers %s (%fm loin)
+HGVS.compass.noPlayerFound=§4Seul dieu vous entend...
+HGVS.compass.teleport=Voulez-vous vous téléporter en %s %s ? (coffre bonus le plus proche)
+
+
+HGVS.command.needOpLevel=Vous devez être un opérateur pour éjecter quelqu'un de la partie
+
+
+HGVS.command.friend.usage=/friend <joueur> [texte] or /friend accept <joueur>
+HGVS.command.friend.success=Requête d'ami(e) envoyée
+HGVS.command.friend.request=Vous avez reçu une demande d'ami(e) de §o%1$s§r, faites §o/friend accept %1$s§r pour accepter
+HGVS.command.friend.NaFriend=Le joueur §o%1$s§r ne vous a pas envoyé de demande d'ami(e), faites §o/friend %1$s§r pour lui en envoyer une
+HGVS.command.friend.newTeam=Le joueur §o%s§r a rejoins l'équipe de §o%s§r
+HGVS.command.friend.sameTeam=Le joueur §o%s§r est déjà dans votre équipe
+HGVS.command.friend.NET=Il n'y a plus d'équipe libre pour vous et §o%s§r
+HGVS.command.friend.self=Vous ne pouvez pas vous envoyer à vous-même une demande d'ami(e)
+
+
+HGVS.command.message.disabled=§nLa commande §o/tell§r§c§n a été désactivée pour un meilleur gameplay ;)
+
+
+HGVS.command.game.usage=/game <start|pause|shift|update|stats|list|reload|heal>...
+HGVS.command.game.pause.success=Le jeu est maintenant en pause
+HGVS.command.game.shift.success=Le temps du jeu a été modifié: l'épisode est %1$s à %2$02d:%3$02d
+HGVS.command.game.spreading.success=Téléportation des joueurs...
+HGVS.command.game.feasts=Nouvelle feast en %s
+
+HGVS.command.game.stats.usage=/game stats <show|reset> <joueur>
+HGVS.command.game.stats.playerNF=Joueur §o%1$s§r introuvable
+HGVS.command.game.stats.remainingDeaths=Nombre de morts restantes: %s
+HGVS.command.game.stats.healthRegenerate=Vie régénérée : %s
+HGVS.command.game.stats.death=(%s)Le joueur §o%s§r a été tué par : §o%s§r
+HGVS.command.game.stats.damage=Cause du dégat : §o%1$s§r, au total : %2$s
+
+HGVS.command.game.list.usage=/game list <add|remove|show> <joueur>
+HGVS.command.game.list.add.success=§o%s§r a été ajouté à la liste de jeu, il peut maintenant rejoindre la partie sans être expulsé
+HGVS.command.game.list.add.failure=§o%s§r n'as pas pu être ajouté à la liste de jeu
+HGVS.command.game.list.remove.success=§o%s§r a été retiré de la liste de jeu, il ne peut plus rejoindre la partie sans être expulsé
+HGVS.command.game.list.remove.failure=§o%s§r n'as pas pu être retiré de la liste de jeu
+
+HGVS.command.game.border.usage=/game border reload or /game border set <taille> [épisode]
+HGVS.command.game.border.set.moreEpisodes=Le nombre d'épisodes est trop bas (%s), il doit être plus grand que %s
+
+HGVS.command.game.heal.success=La vie du joueur %s a été correctement régénérée
+
+HGVS.command.game.config.usage=/game config get <clé> or / game config set <clé> <valeur>
+
+HGVS.game.preload.success=Chunk(s) prégénéré(s) avec succès (%s ms)
+
+
+HGVS.command.abandon.usage=/abandon or /abandon <joueur>
+HGVS.command.abandon.toConfirm=Vous avez déjà envoyé une demande d'abandon à ce joueur, veuillez le confirmer en tapant §o/abandon confirm§r
+HGVS.command.abandon.confirm=Pour des raisons de sécurité, cette commande a besoin d'une confirmation en tapant §o/abandon confirm§r
+HGVS.command.abandon.success=Vous avez fait abandonner §o%s§r
+HGVS.command.abandon.NRF=Votre requête précédente n'a pas pu être trouvée, tapez §o/abandon %s§r pour faire une nouvelle requête
+HGVS.command.abandon.hasGaveUp=§o%s§r a abandonné, son stuff est aux coordonnées : %s
+
+
+HGVS.command.surface.usage=/surface
+HGVS.command.surface.fail=Impossible de vous de téléporter, réessayez à un autre endroit
+
+
+
+HGVS.command.vanish.usage=/vanish <Nom du joueur>

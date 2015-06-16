@@ -1,0 +1,16 @@
+[
+{
+  "modid": "HGVS",
+  "name": "Hunger Gamers SCAREX version",
+  "description": "Hunger Games version SCAREX, enjoy !",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["SCAREX"],
+  "credits": "You <3",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
