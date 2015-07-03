@@ -375,7 +375,7 @@ public class HGVSTickHandler
 			String s[] = new String[2];
 			int i = 0;
 			posFeasts = new Position[20];
-			while ((l = br.readLine()) != null && i < 4) {
+			while ((l = br.readLine()) != null) {
 				s = l.split(" ");
 				posFeasts[i] = new Position(Double.parseDouble(s[0] != null ? s[0] : "0"), Double.parseDouble(s[1] != null ? s[1] : "0"));
 				i++;
