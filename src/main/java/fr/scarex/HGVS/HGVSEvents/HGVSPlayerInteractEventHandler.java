@@ -15,7 +15,7 @@ public class HGVSPlayerInteractEventHandler
 {
 	@SubscribeEvent
 	public void onPlayerInteractEvent(PlayerInteractEvent event) {
-		if (event.action == PlayerInteractEvent.Action.RIGHT_CLICK_AIR || event.action == PlayerInteractEvent.Action.RIGHT_CLICK_AIR) {
+		if (event.action == PlayerInteractEvent.Action.RIGHT_CLICK_AIR) {
 			EntityPlayerMP p = (EntityPlayerMP) event.entityPlayer;
 			if (p.getCurrentEquippedItem() != null && p.getCurrentEquippedItem().getItem() == Items.compass) {
 				if (p.isSneaking()) {
